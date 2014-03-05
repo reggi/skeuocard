@@ -117,7 +117,7 @@
   left: -1.8em;
 }
 .skeuocard.js .flip-tab.prompt {
-  background: #00cfa7 url("../images/card-valid-anim.gif") no-repeat;
+  background: #00cfa7 url(@img-card-valid-anim) no-repeat;
   background-size: 2.3em 2.3em;
 }
 .skeuocard.js .flip-tab.prompt.front {
@@ -137,7 +137,7 @@
   margin-top: 0.6em;
 }
 .skeuocard.js .flip-tab.warn {
-  background: #ff655a url("../images/card-invalid-indicator.png") no-repeat;
+  background: #ff655a url(@img-card-invalid-indicator) no-repeat;
   background-size: 2.3em 2.3em;
 }
 .skeuocard.js .flip-tab.warn.front {
@@ -158,13 +158,13 @@
 }
 .skeuocard.js .face.front {
   background-color: #eee;
-  background-image: url("../images/products/generic-front.png"), url("../images/card-front-background.png");
+  background-image: url(@img-generic-front), url(@img-card-front-background);
   background-repeat: no-repeat;
   background-size: cover;
 }
 .skeuocard.js .face.back {
   background-color: #eee;
-  background-image: url("../images/products/generic-back.png");
+  background-image: url(@img-generic-back);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -337,10 +337,10 @@
   background-size: cover, cover;
 }
 .skeuocard.product-visa .face.front {
-  background-image: url("../images/products/visa-front.png"), url("../images/card-front-background.png");
+  background-image: url(@img-visa-front), url(@img-card-front-background);
 }
 .skeuocard.product-visa .face.back {
-  background-image: url("../images/products/visa-back.png"), url("../images/products/generic-back.png");
+  background-image: url(@img-visa-back), url(@img-generic-back);
 }
 .skeuocard.product-visa .cc-number {
   left: 1.8em;
@@ -361,7 +361,7 @@
   width: 3em;
 }
 .skeuocard.product-visa.issuer-chase-sapphire .face.front {
-  background-image: url("../images/issuers/visa-chase-sapphire.png");
+  background-image: url(@img-visa-chase-sapphire);
 }
 .skeuocard.product-visa.issuer-chase-sapphire .cc-name {
   left: 1.25em;
@@ -401,10 +401,10 @@
   left: 15.25em;
 }
 .skeuocard.product-unionpay .face.front {
-  background-image: url("../images/products/unionpay-front.png"), url("../images/card-front-background.png");
+  background-image: url(@img-unionpay-front), url(@img-card-front-background);
 }
 .skeuocard.product-unionpay .face.back {
-  background-image: url("../images/products/visa-back.png"), url("../images/products/generic-back.png");
+  background-image: url(@img-visa-back), url(@img-generic-back);
 }
 .skeuocard.product-unionpay .cc-number {
   left: 1.8em;
@@ -425,10 +425,10 @@
   width: 3em;
 }
 .skeuocard.product-amex .face.front {
-  background-image: url("../images/products/amex-front.png"), url("../images/card-front-background.png");
+  background-image: url(@img-amex-front), url(@img-card-front-background);
 }
 .skeuocard.product-amex .face.back {
-  background-image: url("../images/products/visa-back.png"), url("../images/products/generic-back.png");
+  background-image: url(@img-visa-back), url(@img-generic-back);
 }
 .skeuocard.product-amex .cc-number {
   left: 3em;
@@ -448,10 +448,10 @@
   width: 3em;
 }
 .skeuocard.product-dinersclubintl .face.front {
-  background-image: url("../images/products/dinersclubintl-front.png"), url("../images/card-front-background.png");
+  background-image: url(@img-dinersclubintl-front), url(@img-card-front-background);
 }
 .skeuocard.product-dinersclubintl .face.back {
-  background-image: url("../images/products/visa-back.png"), url("../images/products/generic-back.png");
+  background-image: url(@img-visa-back), url(@img-generic-back);
 }
 .skeuocard.product-dinersclubintl .cc-number {
   left: 1.8em;
@@ -471,10 +471,10 @@
   width: 3em;
 }
 .skeuocard.product-mastercard .face.front {
-  background-image: url("../images/products/mastercard-front.png"), url("../images/card-front-background.png");
+  background-image: url(@img-mastercard-front), url(@img-card-front-background);
 }
 .skeuocard.product-mastercard .face.back {
-  background-image: url("../images/products/visa-back.png"), url("../images/products/generic-back.png");
+  background-image: url(@img-visa-back), url(@img-generic-back);
 }
 .skeuocard.product-mastercard .cc-number {
   left: 1.8em;
@@ -494,10 +494,10 @@
   width: 3em;
 }
 .skeuocard.product-maestro .face.front {
-  background-image: url("../images/products/maestro-front.png"), url("../images/card-front-background.png");
+  background-image: url(@img-maestro-front), url(@img-card-front-background);
 }
 .skeuocard.product-maestro .face.back {
-  background-image: url("../images/products/visa-back.png"), url("../images/products/generic-back.png");
+  background-image: url(@img-visa-back), url(@img-generic-back);
 }
 .skeuocard.product-maestro .cc-number {
   left: 1.8em;
@@ -517,10 +517,10 @@
   width: 3em;
 }
 .skeuocard.product-discover .face.front {
-  background-image: url("../images/products/discover-front.png"), url("../images/card-front-background.png");
+  background-image: url(@img-discover-front), url(@img-card-front-background);
 }
 .skeuocard.product-discover .face.back {
-  background-image: url("../images/products/visa-back.png"), url("../images/products/generic-back.png");
+  background-image: url(@img-visa-back), url(@img-generic-back);
 }
 .skeuocard.product-discover .cc-number {
   left: 1.8em;
@@ -540,10 +540,10 @@
   width: 3em;
 }
 .skeuocard.product-jcb .face.front {
-  background-image: url("../images/products/jcb-front.png"), url("../images/card-front-background.png");
+  background-image: url(@img-jcb-front), url(@img-card-front-background);
 }
 .skeuocard.product-jcb .face.back {
-  background-image: url("../images/products/visa-back.png"), url("../images/products/generic-back.png");
+  background-image: url(@img-visa-back), url(@img-generic-back);
 }
 .skeuocard.product-jcb .cc-number {
   left: 1.8em;
@@ -564,7 +564,7 @@
 }
 body:after {
   display: none;
-  content: url("../images/products/visa-back.png") url("../images/products/visa-front.png") url("../images/products/unionpay-front.png") url("../images/products/amex-front.png") url("../images/products/discover-front.png") url("../images/products/mastercard-front.png") url("../images/products/dinersclubintl-front.png") url("../images/products/jcb-front.png");
+  content: url(@img-visa-back) url(@img-visa-front) url(@img-unionpay-front) url(@img-amex-front) url(@img-discover-front) url(@img-mastercard-front) url(@img-dinersclubintl-front) url(@img-jcb-front);
 }
 .ua-ie-10 .skeuocard.js .cc-number input ::-ms-clear {
   display: none !important;
